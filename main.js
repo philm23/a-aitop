@@ -6,6 +6,10 @@
 (() => {
   "use strict";
 
+  /* Ao dar refresh, começar sempre no topo da página */
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
