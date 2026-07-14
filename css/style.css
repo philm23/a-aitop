@@ -476,5 +476,21 @@ address { font-style: normal; line-height: 1.9; color: rgba(247,241,229,.85); ma
   .concept__text .w { color: var(--ink) !important; }
   .products__pin { position: static; height: auto; padding: 4rem 0; }
   .products__track { overflow-x: auto; width: auto; }
+
+   /* Foto de fundo do hero */
+.hero__bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../padaria.jpg") center / cover no-repeat;
+}
+
+/* Véu claro por cima da foto, para o texto continuar legível */
+.hero__bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(247, 241, 229, 0.72);
+}
   .loader { display: none; }
 }
