@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padaria Contemporânea — Pão de Massa-Mãe em Viseu</title>
+  <meta name="description" content="Padaria Contemporânea, Viseu. Pão artesanal de fermentação natural, pastelaria com um toque moderno, brunch e café. Rua Quinta D'El Rei 265, Loja 4." />
+  <meta property="og:title" content="Padaria Contemporânea — Viseu" />
+  <meta property="og:description" content="Pão de massa-mãe, croissants frescos e pastelaria contemporânea no coração de Viseu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥖</text></svg>" />
+</head>
+<body>
+
+  <!-- ══════════ Intro loader ══════════ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__word">Padaria</span>
+      <span class="loader__word loader__word--accent">Contemporânea</span>
+    </div>
+  </div>
+
+  <!-- ══════════ Scroll progress ══════════ -->
+  <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+  <!-- ══════════ Navegação ══════════ -->
+  <header class="nav" id="nav">
+    <a href="#topo" class="nav__logo">
+      <span class="nav__logo-mark">P</span>
+      <span class="nav__logo-text">Padaria <em>Contemporânea</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#conceito">Conceito</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#historia">História</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#visita" class="nav__cta">Visite-nos</a>
+    </nav>
+  </header>
+
+  <main id="topo">
+
+    <!-- ══════════ HERO ══════════ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob blob--1" data-parallax="0.25"></div>
+        <div class="blob blob--2" data-parallax="0.45"></div>
+        <div class="blob blob--3" data-parallax="0.15"></div>
+        <div class="grain"></div>
+      </div>
+
+      <div class="hero__float hero__float--wheat" data-parallax="0.6" aria-hidden="true">
+        <svg viewBox="0 0 60 120" fill="none"><path d="M30 118V40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M30 44c-10-2-16-10-16-22 10 0 16 8 16 22Zm0 0c10-2 16-10 16-22-10 0-16 8-16 22Zm0 22c-10-2-16-10-16-22 10 0 16 8 16 22Zm0 0c10-2 16-10 16-22-10 0-16 8-16 22Zm0 22c-10-2-16-10-16-22 10 0 16 8 16 22Zm0 0c10-2 16-10 16-22-10 0-16 8-16 22Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="hero__float hero__float--bread" data-parallax="0.35" aria-hidden="true">
+        <svg viewBox="0 0 120 80" fill="none"><ellipse cx="60" cy="48" rx="52" ry="28" stroke="currentColor" stroke-width="2.5"/><path d="M28 38c8-14 18-20 32-20s24 6 32 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M42 30l8 12M58 26l8 12M74 30l8 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__kicker" data-split>Viseu · desde o forno para a mesa</p>
+        <h1 class="hero__title">
+          <span class="hero__line"><span data-letters>Padaria</span></span>
+          <span class="hero__line hero__line--serif"><span data-letters>Contemporânea</span></span>
+        </h1>
+        <p class="hero__sub" data-split>Pão de massa-mãe, fermentação lenta e pastelaria<br />tradicional com um toque moderno.</p>
+        <div class="hero__badges">
+          <span class="badge">★ 4,7 no Google</span>
+          <span class="badge">Fabrico próprio</span>
+          <span class="badge">Fermentação natural</span>
+        </div>
+      </div>
+
+      <div class="hero__scrollhint" aria-hidden="true">
+        <span>desliza</span>
+        <div class="hero__scrollline"></div>
+      </div>
+    </section>
+
+    <!-- ══════════ MARQUEE ══════════ -->
+    <div class="marquee" data-marquee-speed="1" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Massa-mãe</span><i>✦</i><span>Fermentação lenta</span><i>✦</i><span>Fabrico artesanal</span><i>✦</i><span>Croissants frescos</span><i>✦</i><span>Pastel de nata</span><i>✦</i><span>Viriato</span><i>✦</i>
+        <span>Massa-mãe</span><i>✦</i><span>Fermentação lenta</span><i>✦</i><span>Fabrico artesanal</span><i>✦</i><span>Croissants frescos</span><i>✦</i><span>Pastel de nata</span><i>✦</i><span>Viriato</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ══════════ CONCEITO — texto que acende com o scroll ══════════ -->
+    <section class="concept" id="conceito">
+      <div class="concept__sticky">
+        <p class="concept__label reveal">O conceito</p>
+        <p class="concept__text" id="conceptText">
+          Somos uma empresa familiar que acredita no equilíbrio entre tradição e inovação.
+          Pão de fermentação natural, ingredientes de qualidade e pastelaria com alma —
+          feitos todos os dias, com tempo, autenticidade e transparência.
+        </p>
+        <p class="concept__note reveal">— Daniela &amp; Marco, fundadores</p>
+      </div>
+    </section>
+
+    <!-- ══════════ NÚMEROS ══════════ -->
+    <section class="stats">
+      <div class="stats__grid">
+        <div class="stat reveal">
+          <span class="stat__num"><span data-count="4.7" data-decimals="1">0,0</span></span>
+          <span class="stat__label">classificação no Google</span>
+        </div>
+        <div class="stat reveal" style="--d:.1s">
+          <span class="stat__num"><span data-count="210">0</span>+</span>
+          <span class="stat__label">avaliações de clientes</span>
+        </div>
+        <div class="stat reveal" style="--d:.2s">
+          <span class="stat__num"><span data-count="7">0</span>h</span>
+          <span class="stat__label">pão fresco desde as 07:00</span>
+        </div>
+        <div class="stat reveal" style="--d:.3s">
+          <span class="stat__num"><span data-count="100">0</span>%</span>
+          <span class="stat__label">fabrico próprio</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ PRODUTOS — scroll horizontal pinned ══════════ -->
+    <section class="products" id="produtos">
+      <div class="products__pin">
+        <div class="products__head">
+          <h2 class="products__title reveal">Do forno,<br /><em>todos os dias</em></h2>
+          <p class="products__hint reveal">continua a deslizar ↓</p>
+        </div>
+        <div class="products__track" id="productsTrack">
+          <article class="card" style="--tone:#e8c07d">
+            <span class="card__emoji" aria-hidden="true">🍞</span>
+            <span class="card__index">01</span>
+            <h3>Pão de massa-mãe</h3>
+            <p>Fermentação natural e lenta. Côdea estaladiça, miolo húmido e sabor profundo — o nosso cartão de visita.</p>
+            <span class="card__tag">O mais procurado</span>
+          </article>
+          <article class="card" style="--tone:#d9a05b">
+            <span class="card__emoji" aria-hidden="true">🥐</span>
+            <span class="card__index">02</span>
+            <h3>Croissants</h3>
+            <p>Porto, folhado e brioche. Manteiga de verdade, folhado a estalar e frescura de forno a qualquer hora da manhã.</p>
+            <span class="card__tag">Três estilos</span>
+          </article>
+          <article class="card" style="--tone:#e3b23c">
+            <span class="card__emoji" aria-hidden="true">🥮</span>
+            <span class="card__index">03</span>
+            <h3>Pastel de nata</h3>
+            <p>O clássico português na sua melhor forma: massa fina e crocante, creme dourado e queimado no ponto certo.</p>
+            <span class="card__tag">Clássico</span>
+          </article>
+          <article class="card" style="--tone:#c98a4b">
+            <span class="card__emoji" aria-hidden="true">🍰</span>
+            <span class="card__index">04</span>
+            <h3>Viriato</h3>
+            <p>O doce típico da casa e um símbolo de Viseu. Uma especialidade que só se percebe provando.</p>
+            <span class="card__tag">Especialidade da casa</span>
+          </article>
+          <article class="card" style="--tone:#b96b3d">
+            <span class="card__emoji" aria-hidden="true">🌭</span>
+            <span class="card__index">05</span>
+            <h3>Pão com chouriço</h3>
+            <p>Tradição portuguesa em estado puro — massa artesanal abraçada a chouriço de qualidade.</p>
+            <span class="card__tag">Tradição</span>
+          </article>
+          <article class="card" style="--tone:#dda15e">
+            <span class="card__emoji" aria-hidden="true">🥯</span>
+            <span class="card__index">06</span>
+            <h3>Bagels &amp; sanduíches</h3>
+            <p>O lado contemporâneo da casa: bagels, torradas em pão de massa-mãe e sanduíches de almoço ligeiro.</p>
+            <span class="card__tag">Almoço ligeiro</span>
+          </article>
+          <article class="card" style="--tone:#e9c46a">
+            <span class="card__emoji" aria-hidden="true">🍳</span>
+            <span class="card__index">07</span>
+            <h3>Brunch</h3>
+            <p>Pequeno-almoço e brunch com café de especialidade, num ambiente moderno e acolhedor.</p>
+            <span class="card__tag">Fins de manhã perfeitos</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ HISTÓRIA ══════════ -->
+    <section class="story" id="historia">
+      <div class="story__media" data-parallax-y="0.15" aria-hidden="true">
+        <div class="story__circle">
+          <svg viewBox="0 0 120 120" class="story__badge-svg">
+            <defs><path id="circlePath" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+            <text><textPath href="#circlePath">TRADIÇÃO · INOVAÇÃO · TRADIÇÃO · INOVAÇÃO · </textPath></text>
+          </svg>
+          <span class="story__circle-emoji">🥖</span>
+        </div>
+      </div>
+      <div class="story__body">
+        <p class="story__label reveal">A nossa história</p>
+        <h2 class="reveal">Uma família,<br /><em>um forno aceso</em></h2>
+        <p class="reveal">A Padaria Contemporânea nasceu do sonho de Daniela e Marco: provar que o pão de sempre pode viver num espaço de hoje. Cada fornada é o resultado de fermentações longas, ingredientes escolhidos a dedo e um respeito profundo pelo ofício.</p>
+        <p class="reveal">O projeto tornou-se referência na cidade — ao ponto de ser apresentado como <strong>caso de estudo na Universidade Católica Portuguesa, em Viseu</strong>.</p>
+        <ul class="story__list">
+          <li class="reveal">Fabrico próprio de pão artesanal</li>
+          <li class="reveal" style="--d:.08s">Foco em fermentação natural</li>
+          <li class="reveal" style="--d:.16s">Padaria, pastelaria e refeições ligeiras</li>
+          <li class="reveal" style="--d:.24s">Forte aposta na qualidade dos ingredientes</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ══════════ MARQUEE invertido ══════════ -->
+    <div class="marquee marquee--dark" data-marquee-speed="-1" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Pequeno-almoço</span><i>✦</i><span>Brunch</span><i>✦</i><span>Cafetaria</span><i>✦</i><span>Takeaway</span><i>✦</i><span>Almoço ligeiro</span><i>✦</i><span>Consumo no local</span><i>✦</i>
+        <span>Pequeno-almoço</span><i>✦</i><span>Brunch</span><i>✦</i><span>Cafetaria</span><i>✦</i><span>Takeaway</span><i>✦</i><span>Almoço ligeiro</span><i>✦</i><span>Consumo no local</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ══════════ AVALIAÇÕES ══════════ -->
+    <section class="reviews" id="avaliacoes">
+      <div class="reviews__head">
+        <p class="reviews__label reveal">O que dizem em Viseu</p>
+        <h2 class="reveal">★ 4,7 <span>em mais de 210 avaliações</span></h2>
+      </div>
+      <div class="reviews__grid">
+        <blockquote class="review reveal" data-tilt>
+          <p>“Pão de uma qualidade que não se encontra em mais lado nenhum na cidade. Vale cada minuto de fila.”</p>
+          <footer>— Cliente Google · ★★★★★</footer>
+        </blockquote>
+        <blockquote class="review reveal" data-tilt style="--d:.1s">
+          <p>“Croissants sempre frescos e um café excelente. O ambiente é moderno e acolhedor.”</p>
+          <footer>— Cliente Google · ★★★★★</footer>
+        </blockquote>
+        <blockquote class="review reveal" data-tilt style="--d:.2s">
+          <p>“Funcionários super simpáticos e produtos com uma apresentação impecável.”</p>
+          <footer>— Cliente Google · ★★★★★</footer>
+        </blockquote>
+        <blockquote class="review review--honest reveal" data-tilt style="--d:.3s">
+          <p>“Às horas de ponta há fila — mas a qualidade justifica a espera (e o preço).”</p>
+          <footer>— Opinião frequente · ★★★★☆</footer>
+        </blockquote>
+      </div>
+      <p class="reviews__foot reveal">Frequentemente apontada como uma das melhores padarias e pastelarias de Viseu.</p>
+    </section>
+
+    <!-- ══════════ SERVIÇOS ══════════ -->
+    <section class="services">
+      <h2 class="services__title reveal">Tudo o que precisas,<br /><em>num só lugar</em></h2>
+      <div class="services__grid">
+        <div class="service reveal"><span>☕</span><h3>Cafetaria</h3><p>Café de qualidade, do primeiro expresso da manhã ao lanche.</p></div>
+        <div class="service reveal" style="--d:.05s"><span>🥞</span><h3>Pequeno-almoço &amp; brunch</h3><p>Torradas, bagels, doces e pratos ligeiros.</p></div>
+        <div class="service reveal" style="--d:.1s"><span>🥗</span><h3>Almoço ligeiro</h3><p>Massas, sanduíches e refeições leves ao meio-dia.</p></div>
+        <div class="service reveal" style="--d:.15s"><span>🛍️</span><h3>Takeaway</h3><p>Leva o pão do dia e os folhados para casa.</p></div>
+        <div class="service reveal" style="--d:.2s"><span>♿</span><h3>Acessibilidade</h3><p>Acesso para pessoas com mobilidade reduzida.</p></div>
+        <div class="service reveal" style="--d:.25s"><span>💳</span><h3>Pagamento por cartão</h3><p>Multibanco e contactless, sem complicações.</p></div>
+      </div>
+    </section>
+
+    <!-- ══════════ VISITA / HORÁRIO / CONTACTO ══════════ -->
+    <section class="visit" id="visita">
+      <div class="visit__inner">
+        <h2 class="visit__title">
+          <span class="visit__line" data-letters>Visita-nos</span>
+        </h2>
+        <p class="visit__sub reveal">O pão sai do forno cedo. Vem cedo também.</p>
+
+        <div class="visit__cols">
+          <div class="visit__col reveal">
+            <h3>Horário</h3>
+            <ul class="hours" id="hoursList">
+              <li data-days="1,2,3,4,5"><span>Segunda a sexta</span><span>07:00 – 19:00</span></li>
+              <li data-days="6"><span>Sábado</span><span>08:00 – 19:00</span></li>
+              <li data-days="0" class="hours--closed"><span>Domingo</span><span>Encerrado</span></li>
+            </ul>
+            <p class="visit__status" id="openStatus"></p>
+          </div>
+          <div class="visit__col reveal" style="--d:.1s">
+            <h3>Onde estamos</h3>
+            <address>
+              Rua Quinta D'El Rei 265, Loja 4<br />
+              Piso -1 · 3500-630 Viseu
+            </address>
+            <a class="visit__link" href="https://maps.google.com/?q=Padaria+Contempor%C3%A2nea+Rua+Quinta+D%27El+Rei+265+Viseu" target="_blank" rel="noopener">Abrir no Google Maps ↗</a>
+          </div>
+          <div class="visit__col reveal" style="--d:.2s">
+            <h3>Contacto</h3>
+            <a class="visit__phone" href="tel:+351232074711">+351 232 074 711</a>
+            <p class="visit__price">Preço médio: 1 € – 5 € por pessoa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__marquee" data-marquee-speed="0.6" aria-hidden="true">
+      <div class="marquee__track marquee__track--big">
+        <span>Padaria Contemporânea</span><i>·</i><span>Padaria Contemporânea</span><i>·</i><span>Padaria Contemporânea</span><i>·</i>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Padaria Contemporânea · Viseu</p>
+      <p>Tradição &amp; inovação, todos os dias.</p>
+      <a href="#topo" class="footer__top">↑ voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
