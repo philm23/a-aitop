@@ -268,7 +268,7 @@ section { position: relative; }
 }
 .slice {
   position: absolute; inset: 6%;
-  background: url("../img/croissant.png") center / contain no-repeat;
+  background: url("croissant.png") center / contain no-repeat;
   mix-blend-mode: multiply;
   will-change: transform, opacity;
 }
@@ -552,7 +552,7 @@ address { font-style: normal; line-height: 1.9; color: rgba(247,241,229,.85); ma
   content: "";
   position: absolute;
   inset: 0;
-  background: url("../padaria.jpg") center / cover no-repeat;
+  background: url("padaria.jpg") center / cover no-repeat;
 }
 
 /* Véu claro por cima da foto, para o texto continuar legível */

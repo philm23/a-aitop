@@ -40,7 +40,7 @@
   if (croisPhoto) {
     const probe = new Image();
     probe.onload = () => $("#crois").classList.add("has-photo");
-    probe.src = "img/croissant.png";
+    probe.src = "croissant.png";
   }
 
   /* ── Loader ──────────────────────────────────────────────── */
